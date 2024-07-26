@@ -1,6 +1,16 @@
-# anyGPT
+# AnyGPT
 
-opensource AI api to centralize all your models into one endpoint with features
- npm i start with npx tsx <file-name>
+The base code for the AnyGPT API.
+Uses Docker with Traefik to deploy and Litestar as the web framework.
 
-![Concept](concept.png)
+## Dependencies
+
+- Docker and Docker Compose installed
+- A fucking brain
+
+## How to Run
+
+```bash
+chmod +x deploy-api.sh
+./deploy-api.sh
+```
