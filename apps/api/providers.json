@@ -1,242 +1,517 @@
 [
   {
-    "id": "openai-t5",
-    "apiKey": "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",
-    "provider_url": "https://api.openai.com/v1/chat/completions",
+    "id": "openai-nexeonai",
+    "apiKey": "sk-6Ltbg5ms1zU9kIQdndsymAqeHuPYatTeO06lwjGGiRuHUQ76",
+    "provider_url": "http://165.22.72.192:3001/v1/chat/completions",
     "models": {
       "gpt-4-turbo": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-turbo-2024-04-09": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "tts-1-1106": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "o1-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "o1-preview-2024-09-12": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "dall-e-2": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "whisper-1": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-instruct": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-mini": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "tts-1-hd-1106": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo": {
-        "response_time": null
+        "response_time": null,
+        "response_times": [
+          {
+            "timestamp": "2025-02-21T06:50:57.026Z",
+            "response_time": 2700,
+            "input_tokens": 14,
+            "output_tokens": 271,
+            "tokens_generated": 285,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T06:51:04.510Z",
+            "response_time": 1908,
+            "input_tokens": 14,
+            "output_tokens": 178,
+            "tokens_generated": 192,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T06:52:41.333Z",
+            "response_time": 2655,
+            "input_tokens": 14,
+            "output_tokens": 246,
+            "tokens_generated": 260,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T06:52:47.528Z",
+            "response_time": 2418,
+            "input_tokens": 14,
+            "output_tokens": 257,
+            "tokens_generated": 271,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T06:55:06.828Z",
+            "response_time": 2821,
+            "input_tokens": 14,
+            "output_tokens": 245,
+            "tokens_generated": 259,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T06:55:53.959Z",
+            "response_time": 10386,
+            "input_tokens": 14,
+            "output_tokens": 534,
+            "tokens_generated": 548,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:01:07.715Z",
+            "response_time": 2619,
+            "input_tokens": 14,
+            "output_tokens": 200,
+            "tokens_generated": 214,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:05:09.187Z",
+            "response_time": 2969,
+            "input_tokens": 14,
+            "output_tokens": 268,
+            "tokens_generated": 282,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:05:15.089Z",
+            "response_time": 3137,
+            "input_tokens": 14,
+            "output_tokens": 312,
+            "tokens_generated": 326,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:05:52.460Z",
+            "response_time": 3457,
+            "input_tokens": 14,
+            "output_tokens": 371,
+            "tokens_generated": 385,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:05:56.087Z",
+            "response_time": 2709,
+            "input_tokens": 14,
+            "output_tokens": 293,
+            "tokens_generated": 307,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:06:07.579Z",
+            "response_time": 1948,
+            "input_tokens": 14,
+            "output_tokens": 187,
+            "tokens_generated": 201,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:06:27.475Z",
+            "response_time": 997,
+            "input_tokens": 5,
+            "output_tokens": 32,
+            "tokens_generated": 37,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:06:31.030Z",
+            "response_time": 772,
+            "input_tokens": 5,
+            "output_tokens": 28,
+            "tokens_generated": 33,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:06:59.568Z",
+            "response_time": 2282,
+            "input_tokens": 14,
+            "output_tokens": 228,
+            "tokens_generated": 242,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:07:49.347Z",
+            "response_time": 2875,
+            "input_tokens": 14,
+            "output_tokens": 239,
+            "tokens_generated": 253,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:07:52.278Z",
+            "response_time": 1817,
+            "input_tokens": 14,
+            "output_tokens": 187,
+            "tokens_generated": 201,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:14:24.155Z",
+            "response_time": 2083,
+            "input_tokens": 14,
+            "output_tokens": 214,
+            "tokens_generated": 228,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-21T07:14:28.258Z",
+            "response_time": 2981,
+            "input_tokens": 14,
+            "output_tokens": 358,
+            "tokens_generated": 372,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-22T06:54:07.534Z",
+            "response_time": 2152,
+            "input_tokens": 14,
+            "output_tokens": 225,
+            "tokens_generated": 239,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-22T07:16:22.944Z",
+            "response_time": 2366,
+            "input_tokens": 14,
+            "output_tokens": 259,
+            "tokens_generated": 273,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-22T07:19:21.110Z",
+            "response_time": 2085,
+            "input_tokens": 14,
+            "output_tokens": 240,
+            "tokens_generated": 254,
+            "provider_latency": null
+          },
+          {
+            "timestamp": "2025-02-22T07:20:07.570Z",
+            "response_time": 2077,
+            "input_tokens": 14,
+            "output_tokens": 190,
+            "tokens_generated": 204,
+            "provider_latency": 0
+          },
+          {
+            "timestamp": "2025-02-22T07:21:38.806Z",
+            "response_time": 2457,
+            "input_tokens": 14,
+            "output_tokens": 315,
+            "tokens_generated": 329,
+            "provider_latency": 0
+          }
+        ],
+        "provider_score": 0,
+        "avg_response_time": 2277,
+        "avg_provider_latency": 0,
+        "errors": null
       },
       "gpt-3.5-turbo-0125": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-1106-vision-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "babbage-002": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-2024-05-13": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "davinci-002": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-2024-08-06": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "dall-e-3": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-realtime-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-realtime-preview-2024-10-01": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-0301": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "tts-1-hd": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "o1-mini-2024-09-12": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "tts-1": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "chatgpt-4o-latest": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "o1-mini": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-1106-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "text-embedding-ada-002": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-16k": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-mini-2024-07-18": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "text-embedding-3-small": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "text-embedding-3-large": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-vision-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-16k-0613": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-1106": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-audio-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-0613": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4o-audio-preview-2024-10-01": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-0613": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-turbo-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4-0125-preview": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-4": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "gpt-3.5-turbo-instruct-0914": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "davinci:ft-pinkerton-2023-05-08-20-00-22": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "davinci:ft-pinkerton-2023-05-08-14-20-04": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "curie:ft-pinkerton-2023-05-08-20-31-02": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "davinci:ft-pinkerton-2023-05-08-14-47-50": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-2:A3Kmhr1Y:ckpt-step-77": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-2:A3KmhPhc:ckpt-step-88": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-3:A3Ldc9hb:ckpt-step-77": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-3:A3LddXZg:ckpt-step-88": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-3:A3LddAou": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-4:A3M0Qc64": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-4:A3M0QC9T:ckpt-step-72": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-4:A3M0Qo1C:ckpt-step-84": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-knowledge-test:A1YrAaLM:ckpt-step-60": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-knowledge-test:A1YrAo8y:ckpt-step-80": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-knowledge-test:A1YrBloo": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-1:A1ZQiSCz:ckpt-step-60": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-1:A1ZQiTt5:ckpt-step-75": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-1:A1ZQiozx": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-3:A2yCGomE:ckpt-step-80": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-3:A2yCGj7q:ckpt-step-90": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-3:A2yCH6Pm": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-2:A1aN9uDs:ckpt-step-72": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-2:A1aN9Qg9:ckpt-step-84": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-2:A1aN9vcQ": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk:A30VZ6QB:ckpt-step-90": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk:A30VZ9sY:ckpt-step-80": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk:A30VZu1V": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-4o-qa-1:A4R7IHtW:ckpt-step-60": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-1:A325X3pU:ckpt-step-80": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-1:A325Xw1c:ckpt-step-90": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-1:A325Yick": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-k-test-4-gk-2:A3KmiIqb": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-4o-qa-1:A4R7Iy7U:ckpt-step-80": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       },
       "ft:gpt-4o-2024-08-06:pinkerton:pinkerton-4o-qa-1:A4R7IqlS": {
-        "response_time": null
+        "response_time": null,
+        "response_times": []
       }
     },
     "avg_response_time": null,
