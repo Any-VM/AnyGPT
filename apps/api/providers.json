@@ -1,8 +1,8 @@
 [
   {
     "id": "openai-nexeonai",
-    "apiKey": "sk-6Ltbg5ms1zU9kIQdndsymAqeHuPYatTeO06lwjGGiRuHUQ76",
-    "provider_url": "http://165.22.72.192:3001/v1/chat/completions",
+    "apiKey": "",
+    "provider_url": "router.anyvm.tech:3080/v1/chat/completions",
     "models": {
       "gpt-4-turbo": {
         "response_time": null,
@@ -42,7 +42,8 @@
       },
       "gpt-4o": {
         "response_time": null,
-        "response_times": []
+        "response_times": [],
+        "provider_score": 0
       },
       "tts-1-hd-1106": {
         "response_time": null,
@@ -247,7 +248,7 @@
         "provider_score": 0,
         "avg_response_time": 2277,
         "avg_provider_latency": 0,
-        "errors": null
+        "errors": 1
       },
       "gpt-3.5-turbo-0125": {
         "response_time": null,
